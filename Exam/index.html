@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <button class="header__menu">
+            <img src="img/burger.png" alt="" />
+          </button>
+          <div class="show__gender">
+            <input type="button" value="Adventure" />
+            <input type="button" value="Fantasy" />
+            <input type="button" value="Sports" />
+            <input type="button" value="Romance" />
+            <input type="button" value="Comedy" />
+            <input type="button" value="Sci-Fi" />
+            <input type="button" value="Ecchi" />
+            <input type="button" value="Drama" />
+            <input type="button" value="Supernatural" />
+            <input type="button" value="Gourmet" />
+            <input type="button" value="Suspense" />
+          </div>
+          <div class="header__logo">
+            <a href="#"><img src="img/logo.jpg" alt="" /></a>
+          </div>
+          <div class="header__search">
+            <input type="search" name="" id="search" />
+            <div class="search__btn"><img src="img/search.png" alt="" /></div>
+          </div>
+          <div class="header__reg">
+            <img src="img/noPhoto.png" alt="" id="enter__profile" />
+            <img src="img/login.png" alt="" id="reg__profile" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="regestration">
+        <div class="container">
+          <div class="regestration__container">
+            <div class="login">
+              <div class="user__name">
+                <label for="name">Установите логин</label>
+                <input type="text" name="name" id="reg__name" />
+              </div>
+              <div class="user__pass">
+                <label for="password">Установите пароль</label>
+                <input type="password" name="password" id="reg__pass" />
+              </div>
+              <input
+                type="button"
+                value="Зарегестрироваться"
+                class="btn login__btn"
+              />
+            </div>
+            <div class="signin">
+              <div class="user__name">
+                <label for="name">Введите логин</label>
+                <input type="text" name="name" id="in__name" />
+              </div>
+              <div class="user__pass">
+                <label for="password">Введите пароль</label>
+                <input type="password" name="password" id="in__pass" />
+              </div>
+              <input type="button" value="Войти" class="btn sig__btn" />
+              <p class="link__login">Зарегестрироваться</p>
+            </div>
+            <div class="profil">
+              <div class="profil__logo">
+                <img src="img/noPhoto.png" alt="" />
+              </div>
+              <div class="profil__wrap">
+                <div class="user__info"></div>
+                <input type="button" value="Выйти" id="leave" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="first">
+        <div class="container">
+          <div class="first__container">
+            <div class="gender__wrap open">
+              <div class="gender__txt"></div>
+            </div>
+            <div class="search__wrap open">
+              <div class="search__txt"></div>
+            </div>
+            <div class="box open"></div>
+            <div class="btn__box"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__container"></div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
